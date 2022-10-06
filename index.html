@@ -7,7 +7,59 @@
     align-items: center;
   }
   
+  .curved{
+    position: absolute;
+  }
   
+  .curved span {
+font-size: 26px ;
+transform-origin: bottom;
+height: 300px;
+width: 50px;
+left: -50;
+top: -200;
+position: absolute;
+}
+.c1 {
+transform: rotate(6deg);
+color: violet;
+}
+.c2 {
+transform: rotate(12deg);
+color: indigo;
+}
+.c3 {
+transform: rotate(18deg);
+color: blue;
+}
+.c4 {
+transform: rotate(24deg);
+color: green;
+}
+.c5 {
+transform: rotate(30deg);
+color: yellow;
+}
+.c6 {
+transform: rotate(36deg);
+color: orange;
+}
+.c7 {
+transform: rotate(43deg);
+color: red;
+}
+.c8 {
+transform: rotate(48deg);
+color: purple;
+}
+.c9 {
+transform: rotate(54deg);
+color: goldenrod;
+}
+.c10 {
+transform: rotate(60deg);
+color: teal;
+}
   
   .grad {
     width: 300px;
@@ -87,6 +139,19 @@
 </style>
 
 <body>
+  
+  <div class="curved">
+<span class="c1">B</span>
+<span class="c2">A</span>
+<span class="c3">L</span>
+<span class="c4">A</span>
+<span class="c5">M</span>
+<span class="c6">U</span>
+<span class="c7">S</span>
+<span class="c8">I</span>
+<span class="c9">A</span>
+  </div>
+  
   <div class="grad">
     <ul>
       <li class="about btn" onmouseover="abtOver(this)" onmouseout="abtOut(this)"> about </li>
