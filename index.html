@@ -18,34 +18,46 @@
 
 
   }
-
-  h1 {
+  
+  ul{
+    list-style-type: none;
+  }
+  
+  li.about{
     
     font-size: 40pt;
-    transform: rotate(30deg) translate(-9px, 50px);
+    transform: rotate(20deg) translate(-50px, 50px);
+    width: 50%;
+    
   }
-
-  h2 {
+  
+  li.portfolio{
+    
+    font-size: 35pt;
+    transform: rotate(10deg) translate(-90px, 50px);
+    width: 50%
+    
+  }
+  
+  li.youtube{
+    
     font-size: 30pt;
-    transform: rotate(15deg) translate(-60px, 30px);
+    transform: rotate(0deg) translate(-80px, 45px);
+    width: 50%
+    
   }
-
-  h3 {
-    font-size: 25pt;
-    transform: rotate(-10deg) translate(-40px, -20px);
-  }
+  
+  
+  
+  
 </style>
 
 <body>
   <div>
-    <h1>
-      about
-    </h1>
-    <h2>
-      portfolio
-    </h2>
-    <h3>
-      youtube
-    </h3>
+    <ul>
+      <li class="about"> about </li>
+      <li class="portfolio"> portfolio</li>
+      <li class="youtube"> youTube</li>
+    </ul>
   </div>
 </body>
