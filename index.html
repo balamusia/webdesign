@@ -90,8 +90,8 @@
   <div class="grad">
     <ul>
       <li class="about btn" onmouseover="abtOver(this)" onmouseout="abtOut(this)"> about </li>
-      <li class="portfolio btn"> portfolio</li>
-      <li class="youtube btn"> youTube</li>
+      <li class="portfolio btn" onmouseover="portOver(this)" onmouseout="portOut(this)"> portfolio</li>
+      <li class="youtube btn" onmouseover="ytOver(this)" onmouseout="ytOut(this)"> youTube</li>
     </ul>
   </div>
   
@@ -109,6 +109,24 @@ function abtOver(obj) {
 function abtOut(obj) {
   grad.style.background = 'radial-gradient(circle, rgba(211,110,255,1) 0%, rgba(40,221,181,1) 27%, rgba(0,88,255,1) 100%)'
 }
+    
+function portOver(obj) {
+  grad.style.background = 'radial-gradient(circle, rgba(231,169,119,1) 0%, rgba(126,161,114,1) 40%, rgba(80,36,25,1) 89%)';
+}
+
+function portOut(obj) {
+  grad.style.background = 'radial-gradient(circle, rgba(211,110,255,1) 0%, rgba(40,221,181,1) 27%, rgba(0,88,255,1) 100%)'
+}
+    
+function ytOver(obj) {
+  grad.style.background = 'radial-gradient(circle, rgba(255,129,192,1) 0%, rgba(222,81,81,1) 40%, rgba(107,15,26,1) 89%)';
+}
+
+function ytOut(obj) {
+  grad.style.background = 'radial-gradient(circle, rgba(211,110,255,1) 0%, rgba(40,221,181,1) 27%, rgba(0,88,255,1) 100%)'
+}
+    
+    
 </script>
   
   
